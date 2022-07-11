@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+#divcentral{
+    background-color: #ffe6f2;
+    width: 100%;
+    height: 800px;
+    border-style: solid;
+    border-color: black;   
+}
+#divlogo{
+    background: #80d4ff;
+    width: 100%;
+    height: 100px;
+    border-bottom: groove;
+    border-color: black;
+}
+#logodireita{
+    height: 100px;
+    width: 10%;
+}
+#logoesquerdo{
+    width: 90%;
+    height: 100px;
+    float: right;
+}
+.confletra{ 
+    text-align: left;
+    font-size: 40px;
+    color: black;
+    font-family: Montserrat;
+}
+.confletrameio{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: Montserrat;
+}
+.confletradireita{
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    font-family: Montserrat;
+}
+.confletrapequeno{
+    font-size: 20px;
+    color: white;
+    font-family: Montserrat;
+}
+.div1 {
+width: 100%;
+height: 400px;
+} 
+.produto2 {
+width: 33%;
+height: 400px;
+text-align: center;
+float: right;
+}
+.produto1 {
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    float: right;
+    }
+.produto3{
+width: 33%;
+height: 400px;
+text-align: center;
+float: right;
+}
+.produto4{
+    width: 33%;
+    height: 400px;
+    text-align: center;
+    float: right;
+    }
+    .produto5{
+        width: 33%;
+        height: 400px;
+        text-align: center;
+        float: right;
+        }
+.botaoDestaque {
+background-color:black;
+border:1px solid #566963;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:Montserrat;
+font-size:18px;
+padding:9px 23px;
+text-decoration:none;
+transition: 0.4s;
+}
+.botaoDestaque:hover {
+text-decoration: none;
+transform: scale(1.1);
+transition: 0.4s;
+}
+.botaoDestaque:active {
+position:relative;
+top:1px;
+}
+.borda{
+border-style: solid;
+border-color: black;
+}
+.botaoDestaque1 {
+	background-color:black;
+    border-bottom-right-radius: 10px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Montserrat;
+	font-size:18px;
+	padding:9px 23px;
+	text-decoration:none;
+    transition: 0.4s;
+}
+.botaoDestaque1:hover {
+	text-decoration: underline;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+.botaoDestaque1:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+.parallax {
+    
+    background-image: url("fundo.png");
+  
+   
+    min-height: 1700px; 
+  
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
